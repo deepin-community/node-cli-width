@@ -1,0 +1,38 @@
+node-cli-width (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * New upstream version 3.0.0
+  * Add "Multi-Arch: foreign"
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 25 May 2020 08:43:43 +0200
+
+node-cli-width (2.2.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Paolo Greppi ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 2.2.0
+  * Use pkg-js-tools auto test & install
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 14 Jan 2020 22:17:58 +0100
+
+node-cli-width (2.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #849141)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Thu, 22 Dec 2016 22:49:10 +0000

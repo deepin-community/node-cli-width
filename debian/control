@@ -1,0 +1,27 @@
+Source: node-cli-width
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends:
+ debhelper-compat (= 12)
+ , node-tap <!nocheck>
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Homepage: https://github.com/knownasilya/cli-width
+Vcs-Git: https://salsa.debian.org/js-team/node-cli-width.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-cli-width
+Rules-Requires-Root: no
+
+Package: node-cli-width
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: Get stdout window width
+ Node.js module to get stdout window width, with two fallbacks, tty
+ and then a default.
+ .
+ Node.js is an event-based server-side JavaScript engine.
